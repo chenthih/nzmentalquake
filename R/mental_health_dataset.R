@@ -18,5 +18,3 @@
 #' @source \url{https://www.pnas.org/content/114/7/1512/tab-figures-data}
 "mental_health_dataset"
 
-# RUN THIS LINE WHEN DONE
-# devtools::document()
