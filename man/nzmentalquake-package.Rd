@@ -4,7 +4,7 @@
 \name{nzmentalquake-package}
 \alias{nzmentalquake}
 \alias{nzmentalquake-package}
-\title{nzmentalquake: What the Package Does (One Line, Title Case)}
+\title{nzmentalquake: Title}
 \description{
 This package contains data on earthquakes, mental health service access and population of the three largest NZ regions - Auckland, Wellington and Canterbury.
 }
