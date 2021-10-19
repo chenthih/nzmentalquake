@@ -3,29 +3,26 @@
 \docType{data}
 \name{earthquake_dataset}
 \alias{earthquake_dataset}
-\title{Data of nominal brown shrimp prices by size}
+\title{Data of every large earthquake occuring in the three major regions of New Zealand}
 \format{
-A tibble with 243 rows and 10 variables:
+A tibble with 1517 rows and 7 variables:
 \describe{
-\item{Year}{dbl Year price was recorded}
-\item{Month}{dbl Month price was recorded. Ranges from 1-12 for January - December}
-\item{\code{0-15}}{dbl denoting monthly price for the 0-15/lb. size class}
-\item{\code{15-20}}{dbl denoting monthly price for the 15-20/lb. size class}
-\item{\code{20-25}}{dbl denoting monthly price for the 20-25/lb. size class}
-\item{\code{25-30}}{dbl denoting monthly price for the 25-30/lb. size class}
-\item{\code{30-40}}{dbl denoting monthly price for the 30-40/lb. size class}
-\item{\code{40-50}}{dbl denoting monthly price for the 40-50/lb. size class}
-\item{\code{50-67}}{dbl denoting monthly price for the 50-67/lb. size class}
-\item{Pieces}{dbl denoting monthly price of pieces of shrimp totalling a pound}
+\item{city}{chr city of the recorded earthquake}
+\item{year}{int year of the recorded earthquake}
+\item{origintime}{chr exact time and date of the recorded earthquake}
+\item{longitude}{dbl longitude of the recorded earthquake}
+\item{latitude}{dbl latitude of the recorded earthquake}
+\item{magnitude}{dbl magnitude of the recorded earthquake}
+\item{depth}{dbl depth (in km) of the recorded earthquake}
 }
 }
 \source{
-\url{https://www.pnas.org/content/114/7/1512/tab-figures-data}
+\url{https://quakesearch.geonet.org.nz/}
 }
 \usage{
 earthquake_dataset
 }
 \description{
-Shrimp are classified by size, 0-15 shrimp per pound, 15-20 shrimp per pound, etc. A smaller number per pound indicates larger shrimp. Nominal prices are total monthly value of brown shrimp andings within size class divided by total monthly landings within the size class.
+Includes every earthquake of a magnitude greater than 4.0
 }
 \keyword{datasets}

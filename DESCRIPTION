@@ -1,6 +1,6 @@
 Package: nzmentalquake
 Title: Title
-Version: 0.0.0.9000
+Version: 0.0.1.1000
 Authors@R: 
     person(given = "Chenthi",
            family = "Heer",
@@ -14,7 +14,8 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Depends: 
-    R (>= 2.10)
+    R (>= 2.10),
+    dplyr
 Imports: 
     tibble
 

@@ -1,20 +1,16 @@
-#' Data of nominal brown shrimp prices by size
+#' Data of Uptake of Mental Health Services in New Zealand
 #'
-#' Shrimp are classified by size, 0-15 shrimp per pound, 15-20 shrimp per pound, etc. A smaller number per pound indicates larger shrimp. Nominal prices are total monthly value of brown shrimp andings within size class divided by total monthly landings within the size class.
 #'
-#' @format A tibble with 243 rows and 10 variables:
+#' Shows the number of people accessing mental health services by major region in New Zealand
+#'
+#'  @format A tibble with 129 rows and 4 variables:
 #' \describe{
-#'   \item{Year}{dbl Year price was recorded}
-#'   \item{Month}{dbl Month price was recorded. Ranges from 1-12 for January - December}
-#'   \item{`0-15`}{dbl denoting monthly price for the 0-15/lb. size class}
-#'   \item{`15-20`}{dbl denoting monthly price for the 15-20/lb. size class}
-#'   \item{`20-25`}{dbl denoting monthly price for the 20-25/lb. size class}
-#'   \item{`25-30`}{dbl denoting monthly price for the 25-30/lb. size class}
-#'   \item{`30-40`}{dbl denoting monthly price for the 30-40/lb. size class}
-#'   \item{`40-50`}{dbl denoting monthly price for the 40-50/lb. size class}
-#'   \item{`50-67`}{dbl denoting monthly price for the 50-67/lb. size class}
-#'   \item{Pieces}{dbl denoting monthly price of pieces of shrimp totalling a pound}
+#'   \item{City}{chr city of recorded value, either Auckland, Canterbury or Wellington}
+#'   \item{Year}{int year of total, ranging from 2005 to 2020}
+#'   \item{Sex}{chr sex of the recorded value, either Female, Male or Total}
+#'   \item{Total}{int total number of people accessing Mental Health Services}
 #' }
-#' @source \url{https://www.pnas.org/content/114/7/1512/tab-figures-data}
+#' @source \url{https://www.health.govt.nz/nz-health-statistics/health-statistics-and-data-sets/mental-health-data-and-stats}
 "mental_health_dataset"
+
 
